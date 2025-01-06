@@ -1,8 +1,8 @@
-module github.com/GoAdminGroup/themes
+module github.com/huyrun/themes
 
 go 1.21.5
 
-require github.com/GoAdminGroup/go-admin v1.2.26
+require github.com/huyrun/go-admin v0.0.0-20250106073724-bf0327d0c639
 
 require (
 	github.com/GoAdminGroup/html v0.0.1 // indirect
