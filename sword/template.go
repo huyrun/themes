@@ -2784,16 +2784,6 @@ var TemplateList = map[string]string{"403": `<div class="missing-content">
         </div>
     </aside>
 {{end}}`, "footer": `{{define "footer"}}
-    <footer class="main-footer">
-        <div class="pull-right hidden-xs">
-            <b>Version</b> {{.System.Version}}
-        </div>
-        <div class="pull-right hidden-xs">
-            <b>Theme</b> {{.System.Theme}}&nbsp;&nbsp;
-        </div>
-        <strong>Powered by <a href="https://github.com/huyrun/go-admin">GoAdmin</a>.</strong>
-        {{.FooterInfo}}
-    </footer>
 {{end}}`, "head": `{{define "head"}}
     <head>
         <meta charset="utf-8">
